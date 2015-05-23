@@ -1,0 +1,13 @@
+@media (max-width:630px) {
+	.container{
+	width: 100%;
+	padding: 0;
+	margin: 0;}
+	header{
+	width: 100%;
+	}
+	h1{
+		font-size: 4em;
+		padding-top: .7em;
+	}	
+}
