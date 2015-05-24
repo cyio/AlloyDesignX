@@ -9,8 +9,12 @@ body{
 }
 
 .container {
-/*	min-width: 680px;*/
 	margin: 0 auto;
+	width: 650px;
+	background-color: gray;
+	border: 1px solid white;
+	padding-right: 0;
+	padding-left: 0;
 }
 
 h1{
@@ -36,6 +40,10 @@ h1{
 	line-height: 2em;
 }
 
+li{
+	font-weight: bold;
+}
+
 .bookmarklet>a {
 	width: 350px;
 	background: #F16529;
@@ -59,18 +67,20 @@ h1{
 }
 
 header {
-	width:650px;
+/*	width:650px;*/
 	margin:0 auto;
 	background-image: url(http://ww2.sinaimg.cn/large/4e5d3ea7gw1esel2livfuj20la06m75x.jpg);
 	background-repeat: no-repeat;	
 	height: 230px;
-	border-radius: 3px;
-	vertical-align: middle;
+	border-radius: 3px;	
 }
 
 .github_link{
 	position: absolute;
 	left: 50%;
+	bottom: 0;
+/*
 	margin-left: -15px;
-	margin-top: 15px;
+	margin-top: 3.5em;
+*/
 }
